@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JWT Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="logo">
+      🔐 JWT
+    </div>
+
+    <h1>JWT Security Checker</h1>
+    <p class="subtitle">Decode & Analyze JSON Web Tokens</p>
+
+    <input 
+      type="text" 
+      id="input" 
+      placeholder="Paste your JWT here..."
+    >
+
+    <button onclick="jwt()">View Result</button>
+
+    <div id="result" class="result-box">
+      Result will appear here
+    </div>
+  </div>
+  <script src="script.js" ></script>
+</body>
+</html>
